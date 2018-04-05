@@ -1,7 +1,7 @@
 {
   "name": "cfe-mailer",
-  "version": "1.0.0",
-  "description": "This is a simple mailer module which use nodemailer package",
+  "version": "1.1.0",
+  "description": "This is a simple mailer module which use @sendgrid/mail package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,9 @@
   "author": "vishavjeet",
   "license": "ISC",
   "dependencies": {
-    "nodemailer": "^4.6.4"
+    "@sendgrid/mail": "^6.2.1"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/vishavjeetnokhwal/cfe-mailer"
   }
